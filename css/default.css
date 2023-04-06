@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+}
+footer{
+    background-color: rgb(248, 101, 150);
+    border-radius: 5px;
+    padding: 50px;
+}
+footer h1{
+    float: left;
+    color: white;
+}
+footer a{
+    color: white;
+}
+footer li{
+    list-style-type: none;
+    text-align: right;
+}

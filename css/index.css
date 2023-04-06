@@ -1,0 +1,138 @@
+header{
+    background-image: url(../imgs/さかたまんまるこ3.png);
+    background-position-y: 70%;
+    background-size: cover;
+    height: 500px;
+    padding: 50px;
+}
+.title{
+    vertical-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+header h1{
+    text-align: center;
+    color: #555;
+}
+header h2{
+    text-align: center;
+    color: #555;
+}
+.mainTop{
+    width: 100%;
+}
+.mainImgBigSize{
+    width: 45%;
+    padding: 10px;
+    margin: 2.5%;
+    border: 5px solid black;
+    box-sizing: border-box;
+    float: left;
+    box-shadow: rgb(78, 78, 78) 2px 2px 10px;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+.mainImgBigSize:hover{
+    box-shadow: rgb(78, 78, 78) 5px 5px 15px;
+}
+.mainImgBigSize img{
+    width: 100%;
+}
+.mainImgBigSize p{
+    font-size: 50px;
+    text-align: center;
+}
+.groupInScienceBtuns{
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.groupInScienceBtuns .btn{
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    flex: auto;
+    width: 45%;
+    margin: 50px 2.5%;
+    font-size: 20px;
+    border: 3px solid rgb(63, 63, 63);
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.356);
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    transition: all 0.75s;
+}
+.groupInScienceBtuns .btn:hover{
+    opacity: 0.7;
+}
+.groupInScienceBtuns .btn:active{
+    box-shadow: none;
+    top: 3px;
+    left: 3px;
+}
+.insect{
+    background-color: green;
+}
+.earth{
+    background-color: brown;
+}
+.cooking{
+    background-color: gray;
+}
+.rocket{
+    background-color: gold;
+}
+.bird{
+    background-color: aqua;
+}
+.plant{
+    background-color: blueviolet;
+}
+.contents{
+    clear: left;
+}
+.contents h1{
+    clear: left;
+    text-align: center;
+    font-size: 50px;
+}
+.contentsBtns{
+    flex-wrap: wrap;
+    display: flex;
+}
+.contents .btn{
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    flex: auto;
+    width: 45%;
+    margin: 50px 2.5%;
+    font-size: 20px;
+    border: 3px solid rgb(63, 63, 63);
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.356);
+    clear: left;
+    text-decoration: none;
+    color: black;
+    transition: all 0.8s;
+}
+.contents .btn:hover{
+    background-color: #ddd;
+}
+.sixPack{
+    font-family: serif;
+    text-align: center;
+    font-size: 100px;
+}
+.upArrow{
+    font-size: 50px;
+    text-align: center;
+}
